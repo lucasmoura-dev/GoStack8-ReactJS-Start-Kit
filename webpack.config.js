@@ -10,6 +10,9 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
   },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'public'),
+  },
   module: {
     /* Regras para usar outros loaders que não fazem parte do Webpack (JS), 
        os arquivos CSS e imagens são importados usando outros loaders */
