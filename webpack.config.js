@@ -26,6 +26,18 @@ module.exports = {
           loader: 'babel-loader',
           // depois serão adicionados os loaders de CSS, imagens etc.
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' }, // permite importar arquivos css. Vai pegar e transferir os arquivos .css para dentro de uma tag style no index.hmtl 
+          { loader: 'css-loader' } // permite interpretar importações dentro do CSS (importar imagens etc.)
+        ]
+      }, {
+        test: /.*\.(gif|png|jpe?g)$/i, // importa arquivos de imagem. 'i' -> case insensitive
+        use: {
+          loader: 'file-loader'
+        }
       }
     ]
   }
