@@ -1,6 +1,6 @@
 ReactJS Start Kit
 =============================
-Esse repositório foi criado com a finalidade de ser um projeto básico para servir como partida para iniciar outros projetos no ReactJS. Você poderá iniciar um projeto a partir dele fazendo um Fork, ou usar esse repositório como consulta, para relembrar as instalações e configurações iniciais ensinadas no curso GoStack8 (RocketSeat).
+Esse repositório foi criado com a finalidade de ser um projeto básico para servir como partida para iniciar outros projetos no ReactJS. Você poderá iniciar um projeto a partir dele fazendo um Fork, ou usar esse repositório como consulta para relembrar as instalações e configurações iniciais ensinadas no curso GoStack8 (RocketSeat).
 
 ## Guia
 
